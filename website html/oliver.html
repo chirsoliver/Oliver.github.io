@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="profile">
+        <img src="foto.jpg" alt="Foto masing-masing">
+        <h1>Oliver Doloksaribu / 102022300173 / Fakultas Rekayasa Industri / S1 Sistem Informasi</h1>
+    </div>
+    <div class="social-icons">
+        <a href="https://twitter.com" target="_blank">
+            <img src="x.png" width="30" height="30" alt="X"> Twitter
+        </a>
+        <a href="https://github.com" target="_blank">
+            <img src="Github.png" width="30" height="30" alt="Github"> Github
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="Instagram.jpg" width="30" height="30" alt="Instagram"> Instagram
+        </a>
+        <a href="https://google.com" target="_blank">
+            <img src="Google.png" width="30" height="30" alt="Google"> Google
+        </a>
+        <a href="https://apple.com" target="_blank">
+            <img src="Apple.png" width="30" height="30" alt="Apple"> Apple
+        </a>
+    </div>
+    <footer>
+        <p>Waktu sekarang: <span id="datetime"></span></p>
+    </footer>
+    <script>
+        document.getElementById("datetime").innerText = new Date().toLocaleString();
+    </script>
+</body>
+</html>
